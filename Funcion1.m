@@ -1,19 +1,19 @@
 "Octave Script"
-% Title			    :Funcion Real de Variable Real
+% Title			    :Funci√≥n Inyectiva, sobreyectiva y biyectiva.
 % Description		:Script para determinar funcion inyectiva sprayectiva byectiva
 % Author		    :Miranda Cruz Roxana Rubi
 % Date		    	:20211114
 % Version		    :1
 % Usage			    :octave>cd /path/
-% 		        	:octave>Funcionrealde variable ra}eal
-% 		        	:Requiere aplicaciÛn octave, usar su lÌnea de comandos 
+% 		        	:octave>Funci√≥n Inyectiva, sobreyectiva y biyectiva.
+% 		        	:Requiere aplicaci√≥n octave, usar su l√≠nea de comandos 
 clear
 "RANGO"
 g=-20:0.1:20;
 gy=g.^2;
 plot(g,gy)
 title 'FUNCION SUBREYECTIVA '
-grid on; % CuadrÌcula
+grid on; % Cuadr√≠cula
 xlabel("Y= Conjuto de llegada B");
 ylabel("X= Cojunto de partida A");
 "ESTA FUNCION ES SOBRAYECTIVA"
